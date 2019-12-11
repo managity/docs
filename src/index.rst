@@ -16,7 +16,7 @@ Tabla de Contenido
     general/procedures/index
     adempiere/index
 
-More References
+Para Mayor Información
 ===============
 
 -  Nuestra página oficial es: http://managity.com
