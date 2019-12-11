@@ -5,8 +5,7 @@
 ====
 Open Project
 ====
-OpenProject es una herramienta utilizada en "**ERP Consultores y
-Asociados**" diseñada para el control y seguimiento de los proyectos, la
+OpenProject es una herramienta utilizada en "**Managity**" diseñada para el control y seguimiento de los proyectos, la
 misma permite administrar el tiempo de duración y la delegación de
 tareas de cada uno de los proyectos que realiza dicha empresa, la url
 para acceder a la misma es "**project.managity.com**", es implementada para

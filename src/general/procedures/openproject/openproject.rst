@@ -22,7 +22,7 @@
       Inicio de Sesión
 
 3. Introduzca el usuario y la contraseña que le fue facilitado por la
-   empresa ERPyA en los campos correspondientes, luego seleccione el
+   empresa Managity en los campos correspondientes, luego seleccione el
    boton "**Ingresar**" para acceder al OpenProject.
 
    .. figure:: resources/ingresar.png
