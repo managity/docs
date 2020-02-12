@@ -1,7 +1,7 @@
 **Revisión de Cambios con cliente**
 ===================================
 
-|Convert Video| ## **Justificación** Antes de realizar algún cambio
+|Convert Video 1| ## **Justificación** Antes de realizar algún cambio
 solicitado por el cliente es muy importante conocer si cumple realmente
 con el alcance esperado por el cliente, si cubre en su totalidad la
 necesidad presente, en función de esto se debe implementar un método que
@@ -88,7 +88,7 @@ Ahora bien, ¿Qué significa esto?
    logro con respecto a los recursos invertidos y plazos estimados.
 -  **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser
    limitada, con base en los resultados esperados, establecer una fecha
-   límite permite evaluar el cumplimiento. |Convert Video|
+   límite permite evaluar el cumplimiento. |Convert Video 2|
 
 Para el cumpliento de la metodología y definición de objetivos
 inteligentes,se deben plantear las siguientes interrogantes para cada
@@ -277,5 +277,5 @@ Desarrollo <https://docs.managity.com/general/procedures/customer-review/#inicio
 el responsable de `Managity. <http://managity.com/>`__ está obligado a cambiar el estado actual,
 **Por Definir** al estado **En Espera (Técnico)**.
 
-.. |Convert Video| image:: resources/customer-meeting.jpeg
-.. |Convert Video| image:: resources/smart.png
+.. |Convert Video 1| image:: resources/customer-meeting.jpeg
+.. |Convert Video 2| image:: resources/smart.png

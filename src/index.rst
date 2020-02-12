@@ -13,11 +13,5 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     :maxdepth: 1
     :numbered:
 
-    general/procedures/index
+    general/procedures-openproject/index
 
-.. toctree::
-    :caption: PROCEDIMIENTOS DE ADEMPIERE
-    :maxdepth: 1
-    :numbered:
-
-    adempiere
