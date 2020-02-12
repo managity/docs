@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+{% set title = _('Documentación de Managity.') %}
+{% block body %}
+  <h1>ADempiere<sup>&reg;</sup> {{ release|e }} Documentación</h1>
+<p>
+    {% block description %}{{ _('Esta documentación está dirigida a los clientes de <a href="http://managity.com/">Managity.</a>con la finalidad de guiar al usuario en la ejecución de sus actividades diarias sobre ADempiere ERP.') }}<br />
+    <br />
+    {{ _('La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.') }}<br />
+    <br />
+    {{ _('Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta') }}{% endblock %}.
+</p>
+
+{% block tables %}
+<h2>Herramienta Open Project</h2>
+<table class="contentstable" align="center">
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/openproject/index") }}">
+                    ¿Que es Open Project?
+                </a>
+                <br />
+                <span class="linkdescr">Conoce sobre la herramienta</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/schedule-a-meeting") }}">
+                    Acordar una Reunión
+                </a>
+                <br />
+                <span class="linkdescr">Conoce el procedimiento para agendar una reunión</span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/customer-review") }}">
+                    Revisión de Cambios con Cliente
+                </a>
+                <br />
+                <span class="linkdescr">Definir objetivo en ambas partes</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/support-doc") }}">
+                    Documentar una Tarea / Error
+                </a>
+                <br />
+                <span class="linkdescr">Conoce el procedimiento para reportar un error</span>
+            </p>
+        </td>
+    </tr>
+</table>
+
+<h2>Para Mayor Información</h2>
+<table class="contentstable">
+    <tr>
+        <td width="50%">
+            <p class="biglink">Nuestra página oficial es: <a href="http://managity.com/">Managity.</a></p>
+            <p class="biglink">Si desea reportar un error o una mejora puede hacerlo en: <a href="https://github.com/managity/docs/issues">GitHub</a></p>
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
+{% endblock %}
