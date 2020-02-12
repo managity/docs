@@ -17,9 +17,10 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+
 # -- Project information -----------------------------------------------------
 
-project = 'docs'
+project = 'MANAGITY'
 copyright = '2020, ADempiere ERP'
 author = 'Managity.'
 
@@ -30,7 +31,13 @@ release = '3.9.3'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
-html_logo = 'static/Managity_Logo.png'
+html_logo = 'static/ERP_Logo.png'
+
+html_title = " ".join([project, version, "Documentation"])
+
+templates_path = ["../templates"]
+
+html_additional_pages = {"download": "pages/download.html", "index": "pages/index.html"}
 
 # -- General configuration ---------------------------------------------------
 
@@ -41,7 +48,7 @@ html_logo = 'static/Managity_Logo.png'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
+extensions = ['sphinx.ext.doctest'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -77,7 +84,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'sphinx_materialdesign_theme'
+#html_theme = 'theme.css'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
 
@@ -111,7 +118,7 @@ pygments_style = 'sphinx'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_staticstatic']
-
+html_static_path = ['static']
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -126,7 +133,7 @@ pygments_style = 'sphinx'
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DocsErpya'
+htmlhelp_basename = 'DocsManagity'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -176,7 +183,13 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DocsErpya', 'Documentation Managity',
+    (master_doc, 'DocsManagity', 'Documentation Managity',
      author, 'DocsManagity', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+html_css_files = [
+    'css/style.css',
+]
+def setup(app):
+    app.add_stylesheet("css/style.css")

@@ -8,9 +8,6 @@ La misma será actualizada periódicamente en función de las nuevas versiones d
 
 Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta.
 
-Tabla de Contenido
-==================
-
 .. toctree::
     :caption: MANAGITY
     :maxdepth: 1
@@ -24,9 +21,3 @@ Tabla de Contenido
     :numbered:
 
     adempiere/index
-
-Para Mayor Información
-===============
-
--  Nuestra página oficial es: http://managity.com
--  Si desea reportar un error o una mejora puede hacerlo en: https://github.com/managity/docs/issues
