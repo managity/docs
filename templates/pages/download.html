@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
-{% set title = 'Descarga' %}
-{% set url = 'http://docs.erpya.com/projects/docs-client/downloads/' %}
+{% set title = 'Download' %}
+{% set url = 'https://media.readthedocs.org/%s/couchdb/%s/couchdb.%s' %}
 {% if git_branch == 'master' %}
   {% set rtd_ver = 'latest' %}
 {% else %}
@@ -8,25 +8,26 @@
 {% endif %}
 
 {% block body %}
-<h1>Descargar Documentación de ADempiere {{ release }} </h1>
+<h1>Download ADempiere {{ release }} Documentation</h1>
 
-<p>Para descargar un archivo que contiene todos los documentos para esta versión de ADempiere en uno de varios formatos, siga uno de los enlaces en esta tabla</p>
+<p>To download an archive containing all the documents for this version of
+CouchDB in one of various formats, follow one of links in this table</p>
 
 <table class="docutils">
   <tr>
      <td>PDF (A4 paper size)</td>
-     <td><a href="{{ http://docs.erpya.com/media/pdf/docs-client/latest/docs-client.pdf }}">Descargar Archivo .PDF</a> (~1 MB)</td>
+     <td><a href="{{ url|format('pdf', rtd_ver, 'pdf') }}">Download</a> (~1 MB)</td>
   </tr>
   <tr>
-     <td>HTMLZip</td>
-     <td><a href="{{ http://docs.erpya.com/projects/docs-client/downloads/htmlzip/latest }}">Descargar Archivo .zip</a> (~5 MB)</td>
+     <td>HTML</td>
+     <td><a href="{{ url|format('htmlzip', rtd_ver, 'zip') }}">Download</a> (~5 MB)</td>
   </tr>
   <tr>
     <td>EPUB</td>
-    <td><a href="{{ http://docs.erpya.com/projects/docs-client/downloads/epub/latest }}">Descargar Archivo .epub</a> (~1 MB)</td>
+    <td><a href="{{ url|format('epub', rtd_ver, 'epub') }}">Download</a> (~1 MB)</td>
   </tr>
 </table>
 
-<p>Estos archivos contienen todo el contenido de la documentación.</p>
+<p>These archives contain all the content of the documentation.</p>
 
 {% endblock %}
