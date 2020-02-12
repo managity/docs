@@ -6,7 +6,6 @@ Esta sección está dedicada a las publicaciones de `Managity. <http://managity.
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     openproject/index
     customer-review
