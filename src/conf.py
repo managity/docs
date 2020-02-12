@@ -133,7 +133,7 @@ html_static_path = ['static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DocsManagity'
+htmlhelp_basename = 'DocsErpya'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -172,7 +172,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'DocsManagity', 'Documentation Managity',
+    (master_doc, 'DocsErpya', 'Documentation Managity',
      [author], 1)
 ]
 
@@ -183,8 +183,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DocsManagity', 'Documentation Managity',
-     author, 'DocsManagity', 'One line description of project.',
+    (master_doc, 'DocsErpya', 'Documentation Managity',
+     author, 'DocsErpya', 'One line description of project.',
      'Miscellaneous'),
 ]
 

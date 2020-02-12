@@ -1,5 +1,5 @@
-**OpenProject**
-===============
+.. _documento/openproject:
+
 
 **Inicio de Sesión**
 --------------------
