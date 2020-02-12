@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'docs'
-copyright = '2019, ADempiere ERP'
+copyright = '2020, ADempiere ERP'
 author = 'Managity.'
 
 # The short X.Y version
 version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = '3.9.2'
+release = '3.9.3'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.

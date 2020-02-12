@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% set title = 'Descarga' %}
+{% set url = 'http://docs.erpya.com/projects/docs-client/downloads/' %}
+{% if git_branch == 'master' %}
+  {% set rtd_ver = 'latest' %}
+{% else %}
+  {% set rtd_ver = git_branch %}
+{% endif %}
+
+{% block body %}
+<h1>Descargar Documentación de ADempiere {{ release }} </h1>
+
+<p>Para descargar un archivo que contiene todos los documentos para esta versión de ADempiere en uno de varios formatos, siga uno de los enlaces en esta tabla</p>
+
+<table class="docutils">
+  <tr>
+     <td>PDF (A4 paper size)</td>
+     <td><a href="{{ http://docs.erpya.com/media/pdf/docs-client/latest/docs-client.pdf }}">Descargar Archivo .PDF</a> (~1 MB)</td>
+  </tr>
+  <tr>
+     <td>HTMLZip</td>
+     <td><a href="{{ http://docs.erpya.com/projects/docs-client/downloads/htmlzip/latest }}">Descargar Archivo .zip</a> (~5 MB)</td>
+  </tr>
+  <tr>
+    <td>EPUB</td>
+    <td><a href="{{ http://docs.erpya.com/projects/docs-client/downloads/epub/latest }}">Descargar Archivo .epub</a> (~1 MB)</td>
+  </tr>
+</table>
+
+<p>Estos archivos contienen todo el contenido de la documentación.</p>
+
+{% endblock %}
