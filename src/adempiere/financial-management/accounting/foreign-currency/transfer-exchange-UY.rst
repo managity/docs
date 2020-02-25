@@ -4,7 +4,7 @@
 .. |Ventana Pago Cobro 1| image:: resources/ventana-pago-cobro1.png
 .. |Estado de Cuenta Bancario 1| image:: resources/estado-cuenta-bancario1.png
 
-.. documento/transferencia-operación-cambio-moneda:
+.. _document/transfer-operation-exchange-currency:
 
 Transferencia y Operación de Cambio de Moneda
 =============================================

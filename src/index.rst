@@ -16,3 +16,9 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/procedures-openproject/index
     general/rst/index
 
+.. toctree::
+    :caption: PROCEDIMIENTOS DE ADEMPIERE
+    :maxdepth: 1
+    :numbered:
+
+    adempiere/financial-management/accounting/foreign-currency/index

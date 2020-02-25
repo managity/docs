@@ -4,7 +4,7 @@
 .. |Ventana Moneda Pestaña Contabilidad 1| image:: resources/pest-contabilidad-vent-moneda1.png
 .. |Ventana Tipo de Conversión 1| image:: resources/ventana-tipo-conversion1.png
 
-.. documento/configurando-monedas:
+.. _document/setting-coins:
 
 Configurando Monedas
 ====================

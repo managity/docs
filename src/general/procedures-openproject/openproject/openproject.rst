@@ -9,7 +9,7 @@
 .. |Paquete de Trabajo| image:: resources/paquete.png
 
 
-.. _documento/openproject:
+.. _document/openproject:
 
 
 **Inicio de Sesión**

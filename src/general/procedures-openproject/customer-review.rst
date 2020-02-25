@@ -1,7 +1,7 @@
 .. |Reunión| image:: resources/customer-meeting.jpeg 
 .. |Smart| image:: resources/smart.png
 
-.. _documento/revisión-cambios:
+.. _document/customer-review:
 
 
 **Revisión de Cambios con cliente**      

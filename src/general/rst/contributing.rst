@@ -1,6 +1,6 @@
 .. |Clonar o Descargar| image:: resources/img12.png
 
-.. _documento/contribuir-documento:
+.. _document/contribute-document:
 
 =============================
 Contribuir a la Documentación
@@ -237,9 +237,9 @@ Llamado de Imagen
     .. documento/contribuir-02
 
     .. figure:: resources/img2.png
-       :alt: Perfil de ERPyA en GitHub
+       :alt: Perfil de Managity en GitHub
 
-    Imagen 2. Perfil de ERPyA en GitHub
+    Imagen 2. Perfil de Managity en GitHub
 
 .. note::
 
@@ -257,7 +257,7 @@ Llamado de Imagen por Etiqueta
 "**Ejemplo de ruta de la imagen**":
 
     ``.. |Inicio de Sesión en GitHub| image:: img/img1.png``
-    ``.. |Perfil de ERPyA en GitHub| image:: img/img2.png``
+    ``.. |Perfil de Managity en GitHub| image:: img/img2.png``
 
 .. note::
 
@@ -454,9 +454,9 @@ Para contribuir a la documentación es necesario tener el repositorio actualizad
 
 #. Comando para ubicarse en la carpeta donde se encuentra el repositorio ``cd /opt/Development/Workspace/docs``
 
-#. Comando para traer los cambios del repositorio de ERPyA ``git fetch upstream``
+#. Comando para traer los cambios del repositorio de Managity ``git fetch upstream``
 
-#. Comando para reemplazar el repositorio en mi cuenta por el repositorio de ERPyA ``git rebase -f upstream/master``
+#. Comando para reemplazar el repositorio en mi cuenta por el repositorio de Managity ``git rebase -f upstream/master``
 
     #. Si da conflicto o se necesitan los cambios de una rama en especifico, se debe ajecutar el siguiente comando ``git merge master``
 

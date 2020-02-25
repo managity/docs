@@ -1,5 +1,5 @@
 .. |Usuario en GitHub| image:: resources/img1.png 
-.. |Perfil de ERPyA| image:: resources/img2.png 
+.. |Perfil de Managity| image:: resources/img2.png 
 .. |Fork| image:: resources/img3.png 
 .. |Copiar al Usuario| image:: resources/img4.png 
 .. |Perfil Usuario| image:: resources/img5.png 
@@ -10,7 +10,7 @@
 .. |Descripción del Proyecto| image:: resources/img10.png 
 .. |Proyectos Creados| image:: resources/img11.png 
 
-.. _documento/nuevo-proyecto:
+.. _document/new-project:
 
 ==================================
 Crear un Proyecto en Read the Docs
@@ -30,8 +30,8 @@ Las credenciales para que el usuario pueda iniciar sesión en "**Read the Docs**
 
     - **Ejemplo**: uEstandar
 
-Clonar Repositorio de ERPyA
-===========================
+Clonar Repositorio de Managity
+==============================
 
 Ingrese a su usuario de "**GitHub**" en https://github.com/. 
 
@@ -41,9 +41,9 @@ Imagen 1. Inicio de Sesión en GitHub
 
 Luego ubique el perfil de Managity ubicado en https://github.com/managity, para buscar el repositorio de la documentación "**docs**". La búsqueda del repositorio puede ser realizada de forma manual o buscando la palabra "**docs**" en la barra de búsqueda inteligente.
 
-|Perfil de ERPyA|
+|Perfil de Managity|
 
-Imagen 2. Perfil de ERPyA
+Imagen 2. Perfil de Managity
 
 Ingrese al repositorio "**docs**" y seleccione la opción "**Fork**" ubicada en la superior derecha de la ventana. 
 
@@ -88,7 +88,7 @@ El usuario debe realizar la importación manualmente seleccionando la opción "*
 
 Imagen 8. Opción Importar Manualmente
 
-ERPyA recomienda a los usuarios que los proyectos creados con respecto a la documentación sean creados bajo un estándar con respecto a los nombres:
+Managity recomienda a los usuarios que los proyectos creados con respecto a la documentación sean creados bajo un estándar con respecto a los nombres:
 
     - **Campo Nombre:** Se refiere al nombre del proyecto en Read the Docs, el mismo puede ser la palabra "**Documentacion**", seguida del símbolo "**-**" y por último el nombre del usuario "**uEstandar**".
 
@@ -111,7 +111,7 @@ Imagen 10. Descripción del Proyecto
 
 .. note::
 
-    La creación del proyecto puede tardar unos minutos, ERPyA recomienda al usuario esperar hasta que "**Read the Docs**" culmine el proceso.
+    La creación del proyecto puede tardar unos minutos, Managity recomienda al usuario esperar hasta que "**Read the Docs**" culmine el proceso.
 
 El usuario puede visualizar los proyectos creados ingresando en http://docs.managity.com/
 
