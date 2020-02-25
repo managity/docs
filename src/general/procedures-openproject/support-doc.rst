@@ -4,7 +4,7 @@
 .. |Fecha de Vencimiento de Solicitud| image:: resources/due-date-task.png
 .. |Prioridad de Solicitud| image:: resources/priority-task.png
 
-.. _documento/documentar-tarea:
+.. _document/support-doc:
 
 
 **Documentar una Tarea / Error**
