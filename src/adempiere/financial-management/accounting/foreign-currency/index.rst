@@ -10,5 +10,6 @@ El presente material elaborado por Managity pretende ofrecerle a los usuarios un
     :maxdepth: 2
     
     transfer-exchange-UY
+    managing-currency-differences/process-currency-difference
     configuring-currency
     
