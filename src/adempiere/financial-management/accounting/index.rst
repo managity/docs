@@ -11,3 +11,4 @@ Esta documentación está dirigida a los clientes de `Managity. <http://managity
     foreign-currency/index
     reviewing-balances-and-details/solving-balance-discrepancies
     advanced-accounting/deferred-revenues-and-costs/discerning-revenues-and-costs
+    managing-the-chart-of-account/index
