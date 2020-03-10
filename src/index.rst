@@ -22,3 +22,4 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     :numbered:
 
     adempiere/financial-management/accounting/index
+    adempiere/financial-management/cash-management/index
