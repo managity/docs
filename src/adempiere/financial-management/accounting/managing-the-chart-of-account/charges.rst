@@ -1,5 +1,5 @@
-.. |Pestaña Cargo| image:: resources/charges1.png
-.. |Pestaña Contabilidad| image:: resources/charges2.png
+.. |Pestaña Cargo| image:: resources/charge-tab.png
+.. |Pestaña Contabilidad| image:: resources/charge-accounting-tab.png
 
 .. _document/charges:
 
