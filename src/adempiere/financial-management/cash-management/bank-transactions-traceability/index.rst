@@ -9,3 +9,4 @@ Esta documentación está dirigida a los clientes de `Managity. <http://managity
     :maxdepth: 2
     
     bank-transactions-traceability
+    payment-traceability

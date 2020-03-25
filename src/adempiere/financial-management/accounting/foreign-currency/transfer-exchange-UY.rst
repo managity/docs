@@ -1,8 +1,8 @@
-.. |Ventana Transferencia Bancaria 1| image:: resources/transferencia-bancaria1.png
-.. |Ventana Transferencia Bancaria 2| image:: resources/transferencia-bancaria2.png
-.. |Ventana Transferencia Bancaria 3| image:: resources/transferencia-bancaria3.png
-.. |Ventana Pago Cobro 1| image:: resources/ventana-pago-cobro1.png
-.. |Estado de Cuenta Bancario 1| image:: resources/estado-cuenta-bancario1.png
+.. |Ventana Transferencia Bancaria 1| image:: resources/multi-currency-bank-transfer-window.png
+.. |Ventana Transferencia Bancaria 2| image:: resources/currency-exchange-operation.png
+.. |Ventana Transferencia Bancaria 3| image:: resources/payment-operations-of-multiple-documents-of-the-same-currency-with-a-collection-network.png
+.. |Ventana Pago Cobro 1| image:: resources/payment-of-bills-with-the-exchange-office.png
+.. |Estado de Cuenta Bancario 1| image:: resources/bank-account-statement.png
 
 .. _document/transfer-operation-exchange-currency:
 

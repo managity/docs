@@ -1,8 +1,8 @@
-.. |Ventana Moneda| image:: resources/ventana-monedaUSD1.png
-.. |Pestaña Por Defecto 1| image:: resources/pest-por-defecto-esquema-contable1.png
-.. |Pestaña Por Defecto 2| image:: resources/pest-por-defecto-esquema-contable2.png
-.. |Ventana Moneda Pestaña Contabilidad 1| image:: resources/pest-contabilidad-vent-moneda1.png
-.. |Ventana Tipo de Conversión 1| image:: resources/ventana-tipo-conversion1.png
+.. |Ventana Moneda| image:: resources/currency-window-usd.png
+.. |Pestaña Por Defecto 1| image:: resources/accounting-preferences-for-general-transactions.png
+.. |Pestaña Por Defecto 2| image:: resources/accounting-preferences-for-monetary-transactions.png
+.. |Ventana Moneda Pestaña Contabilidad 1| image:: resources/accounting-tab-in-the-currency-window.png
+.. |Ventana Tipo de Conversión 1| image:: resources/conversion-type-window.png
 
 .. _document/setting-coins:
 

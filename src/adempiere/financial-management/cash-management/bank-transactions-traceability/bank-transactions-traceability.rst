@@ -1,7 +1,7 @@
-.. |Pestaña Pago| image:: resources/bank-transactions-traceability1.png
-.. |Facturas Pagadas| image:: resources/bank-transactions-traceability2.png
-.. |Bank Statement Line| image:: resources/bank-transactions-traceability3.png
-.. |Reporte de Estado de Cuenta Bancario| image:: resources/bank-transactions-traceability4.png
+.. |Pestaña Pago| image:: resources/payment-tab.png
+.. |Facturas Pagadas| image:: resources/bills-paid.png
+.. |Bank Statement Line| image:: resources/bank-statement-line.png
+.. |Reporte de Estado de Cuenta Bancario| image:: resources/bank-statement-report.png
 
 .. _document/bank-transactions-traceability:
 
