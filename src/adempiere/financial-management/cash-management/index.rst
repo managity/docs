@@ -9,5 +9,5 @@ Esta documentación está dirigida a los clientes de `Managity. <http://managity
     :maxdepth: 2
     
     bank-transactions-traceability/index
-
+    financial-management-overview/payment-forms-providers
     
