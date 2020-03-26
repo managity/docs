@@ -5,8 +5,8 @@
 
 .. _document/process-currency-difference:
 
-Proceso de Diferencia de Cambio no Realizada
-============================================
+**Proceso de Diferencia de Cambio no Realizada**
+================================================
 
 El proceso de cálculo de la diferencia de cambio no realizada consta de dos (2) procesos diferentes,
 
@@ -15,13 +15,13 @@ El proceso de cálculo de la diferencia de cambio no realizada consta de dos (2
 
 A continuación les detallaremos cada uno de ellos.
 
-Proceso de Diferencia de Cambio No Realizada de Documentos por Cobrar y Documentos por Pagar
---------------------------------------------------------------------------------------------
+**Proceso de Diferencia de Cambio No Realizada de Documentos por Cobrar y Documentos por Pagar**
+------------------------------------------------------------------------------------------------
 
 ADempiere cuenta con un proceso para realizar el cálculo y aplicación contable correspondiente a la actualización de los saldos contables de los documentos por cobrar y documentos por pagar (que aún no hayan sido canceladas a la fecha de revaluación).
 
-Proceso de Diferencia de Cambio de DXC y DXP No Realizada
----------------------------------------------------------
+**Proceso de Diferencia de Cambio de DXC y DXP No Realizada**
+-------------------------------------------------------------
 
 ADempiere cuenta con un proceso para realizar el cálculo y aplicación contable correspondiente a la actualización de los saldos contables de las cuentas por cobrar y cuentas por pagar (que aún no hayan sido canceladas a la fecha de revaluación).
 
@@ -41,8 +41,8 @@ Dicho proceso realizará el cálculo necesario para actualizar la aplicación co
 
 El resultado lo mostrará en el reporte de diferencia de cambio no realizada detallando línea a línea los documentos con el cálculo realizado. Descargarlo en XLSX para su análisis.
 
-Reporte de Diferencia de cambio DXC y DXP no Realizada
-******************************************************
+**Reporte de Diferencia de cambio DXC y DXP no Realizada**
+**********************************************************
 
 |Reporte de Diferencia de cambio DXC y DXP no Realizada|
 
@@ -75,8 +75,8 @@ Si desea anular un asiento ya completo deberá anular y corregir para que la fec
 Imagen 4. Diario Contable Completo
 
 
-Proceso de Diferencia de Cambio Cuentas Monetarias (de Cuentas Monetarias de Ganancia no Realizada)
----------------------------------------------------------------------------------------------------
+**Proceso de Diferencia de Cambio Cuentas Monetarias (de Cuentas Monetarias de Ganancia no Realizada)**
+-------------------------------------------------------------------------------------------------------
 
 Este proceso tomará todas las cuentas contables integrales “definidas” como moneda extranjera. Considera la moneda que tenga asignada dicha cuenta.
 

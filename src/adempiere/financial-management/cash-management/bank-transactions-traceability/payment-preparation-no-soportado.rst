@@ -1,7 +1,7 @@
 .. _document/payment-preparation-no-soportado:
 
-Preparación de Depósitos   no soportado
-=======================================
+**Preparación de Depósitos   no soportado**
+===========================================
 
 Cuando una empresa recibe pagos de clientes, a menudo se registran en una cuenta bancaria específica como efectivo. Sin embargo, los pagos aparecen en la cuenta bancaria más tarde, cuando se depositan físicamente.
 
@@ -13,11 +13,11 @@ Antes de realizar un depósito físico en el banco, crea un depósito en el sist
 
 Aquí, leerá acerca de cómo configurar el procesamiento de depósitos bancarios, registrar un depósito en el sistema y hacer las correcciones necesarias.
 
-Configurando el procesamiento de depósitos
-------------------------------------------
+**Configurando el procesamiento de depósitos**
+----------------------------------------------
 
-Tramitación de Depósitos
-------------------------
+**Tramitación de Depósitos**
+----------------------------
 
 Una vez que se haya configurado el procesamiento de depósitos bancarios, puede utilizar esta funcionalidad de la siguiente manera:
 
@@ -25,27 +25,27 @@ Recolección de pagos de clientes en cuentas de compensación
 
 Ingreso del depósito
 
-Procesamiento de Cheques posdatados
------------------------------------
+**Procesamiento de Cheques posdatados**
+---------------------------------------
 
 Algunos cheques de los clientes son posteriores, lo que significa que tienen fechas futuras. Aunque el envío de cheques con fecha posterior no es una práctica común, algunos clientes los envían ocasionalmente. Estos cheques no deben depositarse en un banco antes de la fecha del cheque.
 
-Anulación de un Depósito
-------------------------
+**Anulación de un Depósito**
+----------------------------
 
 Si es necesario, puede anular un depósito . El sistema crea un depósito anulado con la misma lista de pagos incluidos y las mismas cuentas involucradas.
 
 Este proceso devuelve a ese importe anulado a la cuenta de compensación.
 
-Gestión de pagos registrados por error
---------------------------------------
+**Gestión de pagos registrados por error**
+------------------------------------------
 
 Para facilitar la creación de depósitos, debe asignar a una cuenta de compensación solo aquellos métodos de pago cuyos pagos deben depositarse en la cuenta bancaria correspondiente. Si los pagos no relacionados se registran en la cuenta de compensación, los usuarios pasarán tiempo adicional seleccionando los pagos apropiados para el depósito de una lista de pagos relacionados y no relacionados. Si con el tiempo detecta que los pagos no relacionados se han registrado en la cuenta de compensación por error (y, por lo tanto, no se pueden incluir en ningún depósito), elimine los pagos de la cuenta de compensación anulándolos y creando nuevos con las cuentas de efectivo adecuadas especificadas.
 
 Si se da cuenta de que los pagos (ventas en efectivo) que se depositarán se registraron en una cuenta de efectivo que no es una cuenta de compensación, debe anularlos y crear nuevos con las cuentas de efectivo adecuadas especificadas.
 
-Conciliación de varias líneas de la empresa con una línea del Banco
-===================================================================
+**Conciliación de varias líneas de la empresa con una línea del Banco**
+-----------------------------------------------------------------------
 
 Actualmente el Sistema no soporta este caso.
 
@@ -57,8 +57,8 @@ Una vez que se incorpore en el extracto importado esas líneas, se deberá poner
 
 Para que esto no suceda se debe depositar 1 cheque por depósito.
 
-Conciliación de varias líneas del Banco con una línea de la Empresa
-===================================================================
+**Conciliación de varias líneas del Banco con una línea de la Empresa**
+-----------------------------------------------------------------------
 
 Actualmente este caso no está soportado
 

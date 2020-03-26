@@ -21,5 +21,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     :maxdepth: 1
     :numbered:
 
-    adempiere/financial-management/accounting/index
-    adempiere/financial-management/cash-management/index
+    adempiere/financial-management/index
+    adempiere/getting-started
+
+

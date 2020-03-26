@@ -2,9 +2,9 @@
 
 .. _document/contribute-document:
 
-=============================
-Contribuir a la Documentación
-=============================
+=================================
+**Contribuir a la Documentación**
+=================================
 
 La documentación es una forma de describir un proceso simple o complejo para un usuario final, dado que en el día a día existen muchas actividades y muy poco tiempo siempre es bueno contar con una guía para realizar los procesos que a veces se olvidan.
 
@@ -28,13 +28,13 @@ Seleccione en la barra de herramientas de "**Visual Studio Code**", la opción "
 
 Luego de haber configurado "**Visual Studio Code**", puede proceder a realizar o actualizar la documentación.
 
-Apuntes para la Documentación
-=============================
+**Apuntes para la Documentación**
+=================================
 
 El lenguaje "**reStructuredText**" o "**rST**" es muy parecido al lenguaje "**Markdown**", al momento de documentar en "**rST**" se deben tener en cuenta algunos detalles diferentes de "**Markdown**":
 
-Identificación del Documento
-****************************
+**Identificación del Documento**
+********************************
 
 Al principio del documento es recomendable identificarlo con una etiqueta, la misma se compone de dos puntos continuos "**..**", seguido de un espacio en blanco y por último el símbolo "**_**", pegado de la palabra "**documento**", con el símbolo "**/**" y el nombre del documento, finalizando con el símbolo "**:**"
 
@@ -58,8 +58,8 @@ La etiqueta al principio del documento es una forma de clasificación ordenada q
     Si desea contribuir a esta documentación, puede tomar como guia el documento realizado por Managity con la finalidad de que los usuario puedan :ref:`documento/contribuir`.
 
 
-Titulos
-*******
+**Titulos**
+***********
 
 Los titulos en "**rST**" son identificados por caracteres especiales
 
@@ -97,8 +97,8 @@ Los mismos, pueden ser utilizados de la siguiente manera en un documento
     Tabla Compleja
     --------------
 
-Formato para Listas Numericas
-*****************************
+**Formato para Listas Numericas**
+*********************************
 
 La numeración en la documentación se realiza agregando:
 
@@ -126,8 +126,8 @@ La misma es visualizada de la siguiente manera:
 
 1. Punto cinco
 
-Formato de  Párrafos
-********************
+**Formato de  Párrafos**
+************************
 
 Los párrafos son simplemente fragmentos de texto separados por una o más líneas en blanco. En "**reStructuredText**" se puede dar formato a los párrafos de la siguiente manera:
 
@@ -156,13 +156,13 @@ Tenga en cuenta algunas restricciones de este marcado:
 - El contenido puede no comenzar o terminar con espacios en blanco entre los asteriscos: * text*
 
 
-Formato para Tablas
-*******************
+**Formato para Tablas**
+***********************
 
 En rST se pueden realizar dos tipos de tablas:
 
-Tabla Compleja
---------------
+**Tabla Compleja**
+------------------
 
 Permite adaptar las celdas al requerimiento que tenga el usuario para plasmar la información.
 
@@ -188,8 +188,8 @@ Permite adaptar las celdas al requerimiento que tenga el usuario para plasmar la
     |     Read the Docs      |         uEstandar        |            uEstandar         |Proyectos Creados|
     +------------------------+--------------------------+------------------------------+-----------------+
 
-Tabla Sencilla
---------------
+**Tabla Sencilla**
+------------------
 
 Permite al usuario plasmar la información en una tabla sencilla.
 
@@ -211,13 +211,13 @@ Permite al usuario plasmar la información en una tabla sencilla.
     GitHub          UsuarioEstandar  Clave Secreta
     ==============  ===============  =============
 
-Formato para Imágenes
-*********************
+**Formato para Imágenes**
+*************************
 
 Las imágenes pueden ser llamadas en la documentación de dos (2) formas:
 
-Llamado de Imagen
------------------
+**Llamado de Imagen**
+---------------------
 
 ::
 
@@ -251,8 +251,8 @@ Llamado de Imagen
     
     - ``Imagen 1. Inicio de Sesión en GitHub``: Referencia para mostrar por orden las imágenes en el documento y agregar su título o descripción.
 
-Llamado de Imagen por Etiqueta
-------------------------------
+**Llamado de Imagen por Etiqueta**
+----------------------------------
 
 "**Ejemplo de ruta de la imagen**":
 
@@ -292,8 +292,8 @@ Llamado de Imagen por Etiqueta
     - ``Imagen 2. Perfil de Managity``: Referencia para mostrar por orden las imágenes en el documento y agregar su título o descripción.
 
 
-Formato para Menú
-*****************
+**Formato para Menú**
+*********************
 
 El menú en la documentación es conformado en el "**index.rst**" principal de la carpeta "**src**". El documento se encuentra conformado por lo siguiente:
 
@@ -304,8 +304,8 @@ El menú en la documentación es conformado en el "**index.rst**" principal de l
 - ``:numbered:``: Etiqueta utilizada para enumerar cada documento del menú declarado con su respectiva ruta.
 - ``general/procedures/index``: Declaración de la ruta del documento.
 
-Formato para Notas y Alertas
-****************************
+**Formato para Notas y Alertas**
+********************************
 
 Para agregar correctamente una nota o alerta, es necesario tomar en cuenta lo siguiente:
 
@@ -317,13 +317,13 @@ Para agregar correctamente una nota o alerta, es necesario tomar en cuenta lo si
 
     - Dejar una sangría de cuatro (4) espacios en blanco, en la línea del contenido.
 
-Reglas para Crear una Documentación
-===================================
+**Reglas para Crear una Documentación**
+=======================================
 
 Managity tiene establecido como estándar de nombre de archivos, directorio e imágenes de la documentación en "**reStructuredText**" lo siguiente.
 
-Nombre del Archivo de la Documentación
-**************************************
+**Nombre del Archivo de la Documentación**
+******************************************
 
 El nombre del archivo debe respetar lo siguiente:
 
@@ -341,8 +341,8 @@ El nombre del archivo debe respetar lo siguiente:
 
 **Ejemplo de un nombre de archivo**: setup-vmax-220.rst
 
-Directorio de la Documentación
-******************************
+**Directorio de la Documentación**
+**********************************
 
 Dependiendo de lo complejo de la documentación se define la estructura de directorios, sea lo mas específico posible y preguntese primero lo siguiente:
 
@@ -394,8 +394,8 @@ Todo esto indica que se debe crear un directorio dentro del directorio principal
 
     Para el nombre de los directorios se debe respetar la misma definición utilizada para los nombres de los archivos.
 
-Directorio de las Imágenes de la Documentación
-**********************************************
+**Directorio de las Imágenes de la Documentación**
+**************************************************
 
 El directorio de las imágenes se debe crear dentro del directorio de la funcionalidad, un ejemplo de ello puede ser el siguiente: 
 
@@ -425,11 +425,11 @@ Siguiendo con el ejemplo anterior, si se desea agregar alguna imagen al document
 
     Para el nombre de las imágenes se debe respetar la misma definición utilizada para los nombres de los archivos.
 
-Comandos para Documentación
-===========================
+**Comandos para Documentación**
+===============================
 
-Descargar Repositorio
-*********************
+**Descargar Repositorio**
+*************************
 
 Para descargar el repositorio en la carpeta local y poder contribuir a la documentación, es necesario ejecutar los siguientes comandos en la terminal de "**Visual Studio Code**".
 
@@ -447,8 +447,8 @@ Para descargar el repositorio en la carpeta local y poder contribuir a la docume
 
     La url introducida en el comando es la copiada desde la opción "**Clone or download**" del repositorio de Managity.
 
-Actualizar Repositorio
-**********************
+**Actualizar Repositorio**
+**************************
 
 Para contribuir a la documentación es necesario tener el repositorio actualizado, para ello se debe ejecutar los siguientes comandos:
 
@@ -466,8 +466,8 @@ Para contribuir a la documentación es necesario tener el repositorio actualizad
 
     No se debe trabajar en la rama master.
 
-Actualizar el Servicio de Prueba
-**********************************
+**Actualizar el Servicio de Prueba**
+************************************
 
 #. Hacer commit en la rama creada para el documento.
 

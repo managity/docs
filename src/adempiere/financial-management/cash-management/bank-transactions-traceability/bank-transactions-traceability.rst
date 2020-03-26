@@ -6,13 +6,13 @@
 .. _document/bank-transactions-traceability:
 
 
-Seguimiento de Transacciones Financieras
-========================================
+**Seguimiento de Transacciones Financieras**
+============================================
 
 En ADempiere puede fácilmente realizar un seguimiento de las transacciones financieras, tanto en la caja como en cuentas bancarias.
 
-Pago/Cobro (Ventana)
---------------------
+**Pago/Cobro (Ventana)**
+------------------------
 
 Dentro de la ventana "Pago/Cobro" se podran observar todas las transacciones financieras que sean "Contado"
 
@@ -25,8 +25,8 @@ En cada transacción podrá acceder a los documentos vinculados a la misma. En e
 
 Imagen 1. Pestaña Pago
 
-Asignación de Pagos
-*******************
+**Asignación de Pagos**
+***********************
 
 Un pago se podrá asignar a una o varias facturas. La asignación se podrá realizar tanto al momento de generar el pago o bien luego mediante el proceso de asignación de pagos.
 
@@ -42,8 +42,8 @@ Podrá identificar cuales están completas y cuáles anuladas mediante el ^ en e
 
 Imagen 2. Pestaña Facturas Pagadas
 
-Pago Conciliado
-***************
+**Pago Conciliado**
+*******************
 
 Los pagos una vez conciliados se les definirá el check de "Conciliado" existente en el cabezal del pago en "Y". Una vez dicho pago esté conciliado se podrá observar la línea de la conciliación donde el mismo fue conciliado en la pestaña "Línea de Conciliación".
 
@@ -51,8 +51,8 @@ Los pagos una vez conciliados se les definirá el check de "Conciliado" existent
 
 Imagen 3. Pestaña Línea de Conciliación
 
-Reporte de Estado de Cuenta Bancario
-------------------------------------
+**Reporte de Estado de Cuenta Bancario**
+----------------------------------------
 
 |Reporte de Estado de Cuenta Bancario|
 

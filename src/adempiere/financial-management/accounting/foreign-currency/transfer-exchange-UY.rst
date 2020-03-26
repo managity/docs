@@ -6,11 +6,11 @@
 
 .. _document/transfer-operation-exchange-currency:
 
-Transferencia y Operación de Cambio de Moneda
-=============================================
+**Transferencia y Operación de Cambio de Moneda**
+=================================================
 
-Transferencia en diferente moneda a la moneda del esquema
----------------------------------------------------------
+**Transferencia en diferente moneda a la moneda del esquema**
+-------------------------------------------------------------
 
 Aquí verá como realizar una transferencia cuando las monedas de origen y destino son diferentes, es decir una moneda es la moneda base y la otra es una moneda extranjera.
 
@@ -30,8 +30,8 @@ Esta operación debitará la cuenta bancaria USD y acreditará la cuenta bancari
 
     La elección del cargo &quot;Transferencia&quot;, determinará los asientos contables de compra y venta utilizando la cuenta puente &quot;Diferencia Compra ME&quot;. La diferencia de cambio correspondiente a esta operación quedará como saldo en dicha cuenta.
 
-Operación de Cambio de Moneda
------------------------------
+**Operación de Cambio de Moneda**
+---------------------------------
 
 Para ello se utilizará la ventana transferencia bancaria multimoneda
 
@@ -51,8 +51,8 @@ También se puede utilizar esta funcionalidad para:
 
 #. Operaciones de pago de varios documentos de "**Diferente Moneda Red de Cobranza**".
 
-Operaciones de pago de múltiples documentos de misma Moneda con Red de Cobranza
--------------------------------------------------------------------------------
+**Operaciones de pago de múltiples documentos de misma Moneda con Red de Cobranza**
+-----------------------------------------------------------------------------------
 
 Si las operaciones son con una misma moneda, es decir no hay cambio de moneda:
 

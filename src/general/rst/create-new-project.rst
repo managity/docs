@@ -12,9 +12,9 @@
 
 .. _document/new-project:
 
-==================================
-Crear un Proyecto en Read the Docs
-==================================
+======================================
+**Crear un Proyecto en Read the Docs**
+======================================
 
 Para realizar una contribución a la documentación de Managity realice el procedimiento indicado en el presente documento para cumplir con los requerimientos necesarios.
 
@@ -30,8 +30,8 @@ Las credenciales para que el usuario pueda iniciar sesión en "**Read the Docs**
 
     - **Ejemplo**: uEstandar
 
-Clonar Repositorio de Managity
-==============================
+**Clonar Repositorio de Managity**
+==================================
 
 Ingrese a su usuario de "**GitHub**" en https://github.com/. 
 
@@ -67,8 +67,8 @@ Luego de culminado el proceso "**Fork**", puede acceder al repositorio desde el 
 
 Imagen 5. Perfil del Usuario
 
-Crear un Proyecto en Read the Docs
-==================================
+**Crear un Proyecto en Read the Docs**
+======================================
 
 Ingrese a la página `Read the Docs Managity <http://docs.managity.com:8000/accounts/login/>`_, para iniciar sesión con su usuario en "**Read the Docs**".
 

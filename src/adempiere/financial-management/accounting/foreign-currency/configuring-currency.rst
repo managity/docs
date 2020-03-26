@@ -6,13 +6,13 @@
 
 .. _document/setting-coins:
 
-Configurando Monedas
-====================
+**Configurando Monedas**
+========================
 
 La conversión de moneda es efectuada cuando alguna transacción se específica en una moneda diferente a la moneda base.
 
-Definición de Monedas
----------------------
+**Definición de Monedas**
+-------------------------
 
 El sistema tiene definidas las monedas más importantes del mundo. Si usted necesita adicionar otras monedas, seleccione "**Moneda**" desde el "**Menú Principal**" e introduzca la información de esta moneda.
 
@@ -22,8 +22,8 @@ http://www.unece.org/cefact/rec/rec09en.htm.
 
 También puede definir una cuasi moneda si lo requiere.
 
-Precisión Decimal
------------------
+**Precisión Decimal**
+---------------------
 
 Introduzca un redondeo estándar para definir el número de lugares decimales que los importes serán redondeados para transacciones contables y documentos. Introduzca "**Redondeo del Costo**" para definir el número de lugares decimales que los importes serán redondeados cuando se ejecuten cálculos de costo.
 
@@ -33,13 +33,13 @@ Introduzca un redondeo estándar para definir el número de lugares decimales qu
 
 Seleccione la pestaña "**Contabilidad**" si desea definir cuentas específicas de ganancias realizadas y no realizadas.
 
-Preferencias de cuentas contables de Pérdidas y Ganancias por conversión de monedas
------------------------------------------------------------------------------------
+**Preferencias de cuentas contables de Pérdidas y Ganancias por conversión de monedas**
+---------------------------------------------------------------------------------------
 
 Las pérdidas o ganancias por conversión de monedas ocurren cuando hay una fluctuación de la tasa entre la fecha de contratación y la fecha de pago de una transacción. De manera predeterminada, todas las ganancias y pérdidas referentes a diferencias por conversión, son registradas en las cuentas de pérdidas y ganancias definidas en el "**Nivel Esquema Contable**".
 
-Preferencias contables para transacciones generales
----------------------------------------------------
+**Preferencias contables para transacciones generales**
+-------------------------------------------------------
 
 Seleccione la ventana de "**Esquema Contable**", luego seleccione la pestaña "**Cuentas por Defecto**".
 
@@ -49,8 +49,8 @@ Seleccione la combinación de cuentas deseadas para la "**Cuenta Ganancias Reali
 
     Imagen 2. Pestaña por Defecto
 
-Preferencias contables para transacciones monetarias
-----------------------------------------------------
+**Preferencias contables para transacciones monetarias**
+--------------------------------------------------------
 
 Para las cuentas monetarias seleccione las cuentas predeterminadas en Banco.
 
@@ -64,13 +64,13 @@ Hay algunas ocasiones sin embargo, que puede asignar cuentas únicas para una mo
 
     Imagen 4. Ventana Moneda Pestaña Contabilidad
 
-Pestaña Tasa de Cambio
-----------------------
+**Pestaña Tasa de Cambio**
+--------------------------
 
 Seleccione un "**Tipo de Tasa de Cambio de SPOT**", "**Promedio**", "**Compañía**", "**Fija**", "**Fin de Período**", "**Tipo de Usuario**", "**Tasa Manual**", etc. Introduzca una fecha "**Válido Desde**". Usted no necesita introducir una fecha válido hasta, puesto que la fecha válida desde "anterior" llegará a ser in-efectiva tan pronto como una nueva fecha desde sea introducida. La fecha más reciente siempre toma precedencia sobre la fecha anterior.
 
-Determinación de la Tasa de Conversión
---------------------------------------
+**Determinación de la Tasa de Conversión**
+------------------------------------------
 
 Cuando se desarrolla la conversión de moneda, la tasa usada se determina de la manera siguiente:
 

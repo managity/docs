@@ -1,12 +1,12 @@
 .. _document/modifying-the-chart-of-account:
 
-Modificando el Plan de Cuentas Existente
-========================================
+**Modificando el Plan de Cuentas Existente**
+============================================
 
 Antes de seguir conozca las convenciones de su empresa para crear un elemento contable.
 
-Agregar un Elemento Contable al Plan de Cuentas
------------------------------------------------
+**Agregar un Elemento Contable al Plan de Cuentas**
+---------------------------------------------------
 
 Si su empresa requiere alguna cuenta adicional, solo tendrá que crearla de la siguiente manera:
 
@@ -34,8 +34,8 @@ Las cuentas creadas podrán estar activas o no.
 
 Las cuentas nuevas son adicionadas automáticamente a la parte inferior del árbol (integrando hacia arriba al siguiente nivel). Usted puede modificar la integración hacia arriba y la sumarización de la cuenta arrastrando los valores de elemento en el árbol.
 
-Desactivar una Cuenta Contable
-------------------------------
+**Desactivar una Cuenta Contable**
+----------------------------------
 
 Podrá desactivar cualquier elemento contable desmarcando activo
 

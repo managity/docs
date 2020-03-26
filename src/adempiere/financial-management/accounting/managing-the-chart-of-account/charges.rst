@@ -3,8 +3,8 @@
 
 .. _document/charges:
 
-Cargo
-=====
+**Cargo**
+=========
 
 Define los diferentes cargos adicionales en que se puede incurrir en una transacción. Se utiliza cargos para procesar transacciones directamente a una cuenta contable predeterminada.
 
@@ -25,8 +25,8 @@ Esta funcionalidad da mucha más libertad de acción para poder dirigir ciertos 
 
 Con esta libertad también se quitan controles, lo que pueden ocasionar problemas si no se realiza con prudencia, de manera que si se va a utilizar esta funcionalidad se debe tener extremo cuidado.
 
-Configuración de Cargos
------------------------
+**Configuración de Cargos**
+---------------------------
 
 En general la configuración de los cargos constan de los siguientes pasos:
 
@@ -34,8 +34,8 @@ En general la configuración de los cargos constan de los siguientes pasos:
 #. Define un Nombre
 #. Define si tiene Impuesto
 
-Tipo de Cargo
--------------
+**Tipo de Cargo**
+-----------------
 
 El tipo de cargo define cuáles son los documentos en los que se podrán aplicar ese cargo. De esta manera, en un documento sólo se pueden seleccionar los cargos que apliquen a ese documento.
 
@@ -55,8 +55,8 @@ Tener en cuenta si se utilizará el cargo en cuestión como una cuenta puente se
 
 Imagen 2. Pestaña Contabilidad
 
-Cargos para imputar Pagos no Identificados
-------------------------------------------
+**Cargos para imputar Pagos no Identificados**
+----------------------------------------------
 
 Se podrá crear pagos para imputar los ingresos o egreso no identificados.
 

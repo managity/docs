@@ -1,7 +1,7 @@
 .. _document/accounting-combination:
 
-Combinación Contable
-====================
+**Combinación Contable**
+========================
 
 Cada esquema contable también define los elementos que integran la combinación contable a ser usada para las transacciones de contabilidad general.
 

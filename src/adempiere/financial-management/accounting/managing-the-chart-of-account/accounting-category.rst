@@ -2,8 +2,8 @@
 
 .. _document/accounting-category:
 
-Categoría Contable
-==================
+**Categoría Contable**
+======================
 
 Una categoría contable puede asociarse con un tipo de documento y el valor se usará en cada entrada de un comprobante que se genere para ese tipo de documento.
 
@@ -11,8 +11,8 @@ Una categoría contable puede asociarse con un tipo de documento y el valor se u
 
 Imagen 1. Relacionar
 
-Definición de Cuentas Contables.
---------------------------------
+**Definición de Cuentas Contables.**
+------------------------------------
 
 La categoría contable es una "Dimensión Contable", es decir un dato que se guarda en cada asiento contable. Por lo tanto, se pueden crear reportes utilizando la categoría contable. En práctica, la categoría contable sirve para agrupar asientos contables para utilizarlas en reportes. No tiene otra utilización.
 

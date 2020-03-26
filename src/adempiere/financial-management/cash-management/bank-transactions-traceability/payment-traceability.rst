@@ -1,18 +1,18 @@
 .. _document/payment-traceability:
 
-Trazabilidad de Pago/Cobros
-===========================
+**Trazabilidad de Pago/Cobros**
+===============================
 
 Este capítulo lo ayudará a comprender cómo configurar y procesar aún más los pagos desconocidos, los cargos financieros y los depósitos bancarios.
 
-Reclasificación de pagos desconocidos
--------------------------------------
+**Reclasificación de pagos desconocidos**
+-----------------------------------------
 
-Configurando el proceso de pagos desconocidos
----------------------------------------------
+**Configurando el proceso de pagos desconocidos**
+-------------------------------------------------
 
-Procesando pagos desconocidos
------------------------------
+**Procesando pagos desconocidos**
+---------------------------------
 
 Cuando detecta un pago desconocido en el extracto bancario, lo procesa de la siguiente manera:
 
@@ -20,17 +20,17 @@ Cree una transacción Pago/Cobro y use el cargo apropiado para el pago desconoci
 
 Una vez que se conozcan los detalles del pago, reasigne el pago
 
-Registro de gastos financieros
-------------------------------
+**Registro de gastos financieros**
+----------------------------------
 
-Configuración de Cargos Financieros
-***********************************
+**Configuración de Cargos Financieros**
+***************************************
 
-Registro de Cargos Financieros
-******************************
+**Registro de Cargos Financieros**
+**********************************
 
-Preparación de Depósitos
-------------------------
+**Preparación de Depósitos**
+----------------------------
 
 Cuando una empresa recibe pagos de clientes, a menudo se registran en una cuenta bancaria específica. Sin embargo, los pagos aparecen en la cuenta bancaria más tarde, cuando se depositan físicamente.
 
@@ -40,11 +40,11 @@ En el sistema, usted utiliza los depósitos bancarios para rastrear los pagos de
 
 Aquí, leerá acerca de cómo configurar el procesamiento de depósitos bancarios, registrar un depósito en el sistema y hacer las correcciones necesarias.
 
-Configurando el procesamiento de depósitos
-******************************************
+**Configurando el procesamiento de depósitos**
+**********************************************
 
-Tramitación de Depósitos
-************************
+**Tramitación de Depósitos**
+****************************
 
 Una vez que se haya configurado el procesamiento de depósitos bancarios, puede utilizar esta funcionalidad de la siguiente manera:
 
@@ -52,20 +52,20 @@ Recolección de pagos de clientes en cuentas de compensación
 
 Ingreso del depósito
 
-Procesamiento de Cheques posdatados
------------------------------------
+**Procesamiento de Cheques posdatados**
+---------------------------------------
 
 Algunos cheques de los clientes son posteriores, lo que significa que tienen fechas futuras. Aunque el envío de cheques con fecha posterior no es una práctica común, algunos clientes los envían ocasionalmente. Estos cheques no deben depositarse en un banco antes de la fecha del cheque.
 
-Anulación de un Depósito
-************************
+**Anulación de un Depósito**
+****************************
 
 Si es necesario, puede anular un depósito . El sistema crea un depósito anulado con la misma lista de pagos incluidos y las mismas cuentas involucradas.
 
 Este proceso devuelve a ese importe anulado a la cuenta de compensación.
 
-Gestión de pagos registrados por error
-**************************************
+**Gestión de pagos registrados por error**
+******************************************
 
 Para facilitar la creación de depósitos, debe asignar a una cuenta de compensación solo aquellos métodos de pago cuyos pagos deben depositarse en la cuenta bancaria correspondiente. Si los pagos no relacionados se registran en la cuenta de compensación, los usuarios pasarán tiempo adicional seleccionando los pagos apropiados para el depósito de una lista de pagos relacionados y no relacionados. Si con el tiempo detecta que los pagos no relacionados se han registrado en la cuenta de compensación por error (y, por lo tanto, no se pueden incluir en ningún depósito), elimine los pagos de la cuenta de compensación anulándolos y creando nuevos con las cuentas de efectivo adecuadas especificadas.
 
