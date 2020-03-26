@@ -11,3 +11,4 @@ Esta documentación está dirigida a los clientes de `Managity. <http://managity
     bank-transactions-traceability
     payment-traceability
     unknown-payments-reclassification
+    payment-preparation-no-soportado
