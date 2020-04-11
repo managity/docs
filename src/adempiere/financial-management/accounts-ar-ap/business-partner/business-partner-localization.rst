@@ -1,3 +1,7 @@
+.. |Boton de Localización| image:: resources/business-partner-localization-button.png
+.. |Dialogo de Localización| image:: resources/business-partner-localization-dialog.png
+
+
 Localización del Socio del Negocio Proveedor/Cliente
 ====================================================
 
@@ -24,3 +28,6 @@ predeterminada y la configuración de pago y Lista de Precio.
 Es obligatorio ingresar la localización en un Socio de Negocio.
 
 Ingrese donde está marcado.
+
+|Boton de Localización|
+|Dialogo de Localización|
